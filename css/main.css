@@ -21,6 +21,10 @@ body {
     background-attachment: fixed;
     clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
 }
+#banner nav{
+    z-index: 9999;
+}
+
 
 /*align vertical center*/
 #banner-content {
@@ -87,6 +91,40 @@ body {
     border-color: black;
 }
 
+/* navbar */
+#banner button {
+    color: black;
+    border: 1px solid;
+
+}
+
+/* scroll */
+
+
+
+/*BOTTOM TO - TOP*/
+
+.scrollup {
+    font-size:30px;
+    color: rgb(111, 112, 110);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    border-radius: 50%;
+    text-align: center;
+    padding: 6px;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    cursor: pointer;
+}
+
+
+#banner .navbar {
+    border: 0;
+    padding: 10px 0;
+    transition: all 2s ease-in-out;
+    background: transparent;
+}
+
 /*header*/
 .header h1 {
     text-transform: uppercase;
@@ -141,7 +179,7 @@ body {
 
 /*promise section*/
 .promise-picture {
-    background: linear-gradient(rgba(15, 166, 239, 0.65), rgba(110, 190, 236, 0.1)), url("/img/b.JPG");
+    background: linear-gradient(rgba(15, 166, 239, 0.65), rgba(110, 190, 236, 0.1)), url("../img/c.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -437,7 +475,7 @@ body {
     height: 40px;
 }
 
-#goals .col-sm-6:before{
+#goals .col-sm-6:before {
     border-top: solid 20px;
     border-right: solid 20px;
     border-left: solid 20px #5DBCD2;
@@ -453,7 +491,7 @@ body {
 
 }
 
-#porfolio .font-awesome-underline:after{
+#porfolio .font-awesome-underline:after {
     background-color: whitesmoke;
 }
 
@@ -497,49 +535,47 @@ body {
 /*end of portfolio*/
 
 /*clients section*/
-#client{
+#client {
     padding: 60px 40px;
     background-color: whitesmoke;
 }
-#client img{
+
+#client img {
     width: 270px;
     height: 200px;
 }
-#client .font-awesome-underline:after{
+
+#client .font-awesome-underline:after {
     background-color: whitesmoke;
-    
+
 }
+
 /*blog*/
-#blog{
+#blog {
     padding: 40px 30px;
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
+
 /*quotes*/
 
-.quotes-background{
-    background: rgba(0,0,0,0.5);
-    
+.quotes-background {
+    background: rgba(0, 0, 0, 0.5);
+
 }
-#quotes .header{
+
+#quotes .header {
     padding-bottom: 20px;
 }
-#quotes .container-fluid{
+
+#quotes .container-fluid {
     padding: 40px 20px;
 }
-#quotes img{
-    background-color:#4cb8c4;
+
+#quotes img {
+    background-color: #4cb8c4;
 }
+
 /*footer*/
-#contact{
+#contact {
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 }
-
-
-
-
-
-
-
-
-
-

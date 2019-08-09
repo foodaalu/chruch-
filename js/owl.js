@@ -16,6 +16,7 @@
         }
     }
 });
+
 $('#customers').owlCarousel({
     loop:true,
     margin:10,
@@ -36,4 +37,5 @@ $('#customers').owlCarousel({
             loop:false
         }
     }
-})
+});
+
