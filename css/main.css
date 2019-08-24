@@ -371,7 +371,6 @@ body {
     background-position: center;
     background-size: cover;
     color: whitesmoke;
-    clip-path: polygon(0 10%, 100% 0, 100% 87%, 0 100%);
 }
 
 #numbers .fa {
